@@ -236,7 +236,7 @@ main {
 }
 
 #paint-canvas {
-  background-color: #0fffff;
+  /* background-color: #0fffff; */
   cursor:crosshair;
   /* width:100%;
   height:100%; */

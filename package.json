@@ -2,7 +2,7 @@
   "name": "wando-paint-app",
   "productName": "wando-paint-app",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "WandO paint app",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",

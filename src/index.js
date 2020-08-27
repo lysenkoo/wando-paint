@@ -97,6 +97,8 @@ const createWindow = () => {
     //   a.download = imageName || 'drawing';
     //   a.click();
     // });
+
+    console.log("js init complete...");
   `;
     mainWindow.webContents.executeJavaScript(code);
   });
@@ -104,8 +106,12 @@ const createWindow = () => {
   mainWindow.on('resize', function(e){
     e.preventDefault();
 
-    
-  })  
+
+  })
+
+  //mainWindow.fullScreen = true;
+
+  console.log("electron init complete...");
   
 };
 
